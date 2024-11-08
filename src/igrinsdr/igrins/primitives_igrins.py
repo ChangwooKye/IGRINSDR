@@ -78,7 +78,7 @@ from .procedures.iraf_helper import invert_order
 
 from .procedures.correct_distortion import get_rectified_2dspec
 from .procedures.shifted_images import ShiftedImages
-
+from .procedures.badpixel_mask import badpixel_mask
 
 def _get_wavelength_solutions(affine_tr_matrix, zdata,
                               new_orders):
