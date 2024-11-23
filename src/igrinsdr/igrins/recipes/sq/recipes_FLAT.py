@@ -92,7 +92,7 @@ def makeProcessedFlat(p: Igrins):
 
     return
 
-_default = makeProcessedFlat
+#_default = makeTestBadpix
 
 # We set 'estimateNoise' as a default recipe for temporary, just for testing
 # purpose.
@@ -152,4 +152,4 @@ def makeTestBadpix(p: Igrins):
     return
 
 
-# _default = makeProcessedBPM
+_default = makeTestBadpix
